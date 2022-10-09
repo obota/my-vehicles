@@ -1,0 +1,56 @@
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+p {
+  color: black;
+  text-align: left;
+  color: red;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+body {
+  background-color: bisque;
+}
+
+.topav {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.intro {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.author {
+    color: red;
+}
+p.author {
+    color: blue;
+    font-size: large;
+    font-style: italic;
+.picture {
+    width: 33%;
+    margin: 5px;
+}
+.sidebar {
+  float: left;
+  background-color: aquamarine;
+  width: 33%;
+}
+
+.column {
+  width: 100%;
+  display: flex;
+  float: left;
+  margin: 20px;
+}
